@@ -1,7 +1,3 @@
-// Write a function that sorts and array using the insertion sort algorithm.
-
-// https://en.wikipedia.org/wiki/Insertion_sort
-
 function insertionSort(array) {
   let length = array.length;
   let temp, j;
@@ -15,5 +11,3 @@ function insertionSort(array) {
   }
   return array
 }
-
-module.exports = insertionSort;
