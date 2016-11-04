@@ -1,9 +1,3 @@
-// Write a function that sorts an array using the bubble sort algorithm
-
-// https://en.wikipedia.org/wiki/Bubble_sort
-
-
-
 function bubbleSort(a) {
   var swapped;
   do {
@@ -19,5 +13,3 @@ function bubbleSort(a) {
   } while (swapped);
   return a;
 }
-
-module.exports = bubbleSort;
